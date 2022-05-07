@@ -1,0 +1,134 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+body{
+    width: 100%;
+    height: 100vh;
+    font-family: 'Poppins';
+    scroll-behavior: smooth;
+    font-weight: 600;
+    user-select: none;
+}
+.shoptitle{
+    padding-left: 30px;
+    font-weight: 700;
+}
+.shoptiles{
+    display: flex;
+    justify-content: space-evenly;
+    padding: 0px 30px;
+}
+.block{
+    padding: 20px;
+    margin: 20px;
+    height: 270px;
+    min-width: 150px;
+    width: 150px;
+    border: none;
+    border-radius: 3px;
+    opacity: 0.88;
+    transition: 0.2s;
+}
+.block:hover{
+    transform: scale(1.04);
+    cursor: pointer;
+    opacity: 1;
+    transition: 0.2s;
+}
+.womenblock1{
+    width: 100%;
+    background: linear-gradient(to top, #00000088 10%, #44414144 40%), url('https://images.unsplash.com/photo-1595231712612-754e8fe9d29b?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxwaG90by1yZWxhdGVkfDN8fHxlbnwwfHx8fA%3D%3D&auto=format&fit=crop&w=500&q=60');
+    background-position: center;
+    background-size: cover;
+}
+.womenblock2{
+    width: 100%;
+    background: linear-gradient(to top, #00000088 10%, #44414144 40%), url('https://images.unsplash.com/photo-1571908599407-cdb918ed83bf?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxwaG90by1yZWxhdGVkfDZ8fHxlbnwwfHx8fA%3D%3D&auto=format&fit=crop&w=500&q=60');
+    background-position: center;
+    background-size: cover;
+}
+.womenblock3{
+    width: 100%;
+    background: linear-gradient(to top, #00000088 10%, #44414144 40%), url('https://images.unsplash.com/photo-1570212773364-e30cd076539e?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxwaG90by1yZWxhdGVkfDl8fHxlbnwwfHx8fA%3D%3D&auto=format&fit=crop&w=500&q=60');
+    background-position: center;
+    background-size: cover;
+}
+.womenblock4{
+    width: 100%;
+    background: linear-gradient(to top, #00000088 10%, #44414144 40%), url('https://images.unsplash.com/photo-1610048869310-d889ff25c374?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxwaG90by1yZWxhdGVkfDE2fHx8ZW58MHx8fHw%3D&auto=format&fit=crop&w=500&q=60');
+    background-position: center;
+    background-size: cover;
+}
+.womenblock5{
+    width: 100%;
+    background: linear-gradient(to top, #00000088 10%, #44414144 40%), url('https://images.unsplash.com/photo-1595231712607-de506517831b?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=400&q=80');
+    background-position: center;
+    background-size: cover;
+}
+.menblock1{
+    width: 100%;
+    background: linear-gradient(to top, #00000088 10%, #44414144 40%), url('https://external-content.duckduckgo.com/iu/?u=https%3A%2F%2Fi.pinimg.com%2Foriginals%2Fbd%2Fdc%2Fe4%2Fbddce45a32cda834a9391681d16b34cf.jpg&f=1&nofb=1');
+    background-position: center;
+    background-size: cover;
+}
+.menblock2{
+    width: 100%;
+    background: linear-gradient(to top, #00000088 10%, #44414144 40%), url('https://external-content.duckduckgo.com/iu/?u=https%3A%2F%2Fqph.fs.quoracdn.net%2Fmain-qimg-0f85a5c68efc45bd907f829a823665fd&f=1&nofb=1');
+    background-position: center;
+    background-size: cover;
+}
+.menblock3{
+    width: 100%;
+    background: linear-gradient(to top, #00000088 10%, #44414144 40%), url('https://external-content.duckduckgo.com/iu/?u=https%3A%2F%2Fi.pinimg.com%2F736x%2Fdc%2F1a%2F68%2Fdc1a68379a2434fc9da6e6eda89b539c.jpg&f=1&nofb=1');
+    background-position: center;
+    background-size: cover;
+}
+.menblock4{
+    width: 100%;
+    background: linear-gradient(to top, #00000088 10%, #44414144 40%), url('https://external-content.duckduckgo.com/iu/?u=https%3A%2F%2Fwww.wonderwardrobes.com%2Fwp-content%2Fuploads%2F2015%2F11%2FRed1.jpg&f=1&nofb=1');
+    background-position: center;
+    background-size: cover;
+}
+.menblock5{
+    width: 100%;
+    background: linear-gradient(to top, #00000088 10%, #44414144 40%), url('https://external-content.duckduckgo.com/iu/?u=https%3A%2F%2Fi.pinimg.com%2Foriginals%2F26%2F1f%2Ff6%2F261ff639aa6e6f8d62b5ca96ba171cc4.jpg&f=1&nofb=1');
+    background-position: center;
+    background-size: cover;
+}
+fieldset{
+    border-right: none; 
+    border-bottom: none; 
+    border-left: none;
+    padding: 10px; 
+    margin: 10px
+}
+legend{
+    margin: 10px; 
+    text-align: center; 
+    font-family: 'Dancing script'; 
+    font-size: 50px; 
+    font-weight: 600;
+}
+.imagetext{
+    height: 100%;
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: flex-end;
+    text-align: center;
+    font-weight: 700;
+    color: rgb(255, 255, 255);
+}
+.tradition{
+    height: 400px;
+    display: flex;
+    justify-content: center;
+    margin: 0px 90px 0px 90px;
+    border-radius: 5px;
+}
+#img8{
+    background: linear-gradient(to top, #2c2b2b88 10%, #6b676744 40%), url('https://www.fabja.com/pub/media/codazon/slideshow/cache/1280x500/n/e/new_arrivals_dresses_online.png');
+    background-position: center;
+    background-size: cover;
+}

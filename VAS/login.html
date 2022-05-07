@@ -1,0 +1,86 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+
+    <title>V A S Restaurant</title>
+
+    <link rel="stylesheet" href="css/style1.css">
+
+
+</head>
+
+<body>
+    <div class="hey">
+        <div class="form-box">
+            <div class="button-box">
+                <div id="btn"></div>
+                <button type="button" class="toggle-btn" onclick="login()">log in</button>
+                <button type="button" class="toggle-btn" onclick="register()">register</button>
+            </div>
+            <!-- <div class="social-icons">
+                <a href="https://www.facebook.com/"><img src="images/fb.png"></a>
+
+                <a href="https://twitter.com/login?redirect_after_login=https%3A%2F%2Fads.twitter.com%2Flogin&hide_message=1"><img src="images/tw.png"></a>
+
+                <a href="https://www.google.com/"><img src="images/gp.png"></a>
+            </div> -->
+
+
+            <form id="login" class="input-group">
+                <input type="text" name="" class="input-field" placeholder="User Id" required>
+
+                <input type="password" name="" class="input-field" placeholder="Password" required>
+
+                <input type="checkbox" name="" class="check-box" required><span>remember password</span>
+                <button class="submit"><a id="button" href="index.html">login</a></button>
+
+            </form>
+
+
+            <form id="register" class="input-group">
+                <input type="text" name="" class="input-field" placeholder="User Id" required>
+
+                <input type="email" name="" class="input-field" placeholder="Email Id" required>
+
+                <input type="text" name="" class="input-field" placeholder="Password" required>
+
+                <input type="checkbox" name="" class="check-box" required><span>i agree to terms and conditions</span>
+                <button class="submit"><a id="button" href="index.html">register</a></button>
+
+            </form>
+
+
+        </div>
+
+    </div>
+
+
+
+    <script>
+        var x = document.getElementById("login");
+        var y = document.getElementById("register");
+        var z = document.getElementById("btn");
+
+        function register() {
+            x.style.left = "-400px";
+            y.style.left = "50px";
+            z.style.left = "110px";
+        }
+
+        function login() {
+            x.style.left = "50px";
+            y.style.left = "450px";
+            z.style.left = "0";
+        }
+    </script>
+
+
+
+
+
+
+
+</body>
+
+</html>

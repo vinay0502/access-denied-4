@@ -1,0 +1,51 @@
+.homepageEnd{
+    width: 100%;
+    background-color: rgb(17, 17, 17);
+    color: white;
+    height: 250px;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+}
+.endheading{
+    font-weight: 400;
+    font-size: 14px;
+}
+.endcontent{
+    margin: 2px;
+    font-size: 12.8px;
+}
+.paymenticons{
+    display: flex;
+    justify-content: space-between;
+}
+.btnend{
+    margin: 10px;
+    height: 55px;
+    width: 170px;
+    padding: 14px;
+    outline: none;
+    border: 3px solid #63ffb0;
+    background-color: rgb(17, 17, 17);
+    color: white;
+    text-align: center;
+    font-weight: 600;
+    transition: 0.4s;
+}
+.btnend:hover{
+    cursor: pointer;
+    background-color: #63ffb0;
+    transform: scale(1.04);
+    transition: 0.2s;
+    color: rgb(17, 17, 17);
+}
+.copyright{
+    height: 25px;
+    width: 100%;
+    background-color: #63ffb0;
+    color: black;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-decoration: none;
+}

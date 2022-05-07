@@ -1,0 +1,46 @@
+<!-- CODED BY ABHISHEK VERMA -->
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>CROWN shop</title>
+    <link rel="preconnect" href="https://fonts.gstatic.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com">
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@500&display=swap" rel="stylesheet">
+    <script src="https://kit.fontawesome.com/a81368914c.js"></script>
+    <link rel="stylesheet" href="login.css">
+    <link rel="icon" type="image/png" href="assets/favicon3.png"/>
+</head>
+<body>
+    <div class="image">
+        <div class="container">
+            <div class="main-logo">
+                <img src="assets/logo_transparent.png" alt="main-logo" width="150" height="150">
+            </div>
+            <div class="loginimage">
+                <img src="assets/icons/login-person.svg" alt="login-person" height="750px" width="600px" />
+            </div>
+            <div class="loginform">
+                <form id="login-form">
+                    <img id = "avatar" src="assets/icons/login-user.svg" alt="login-user" height="75px" width="75px" />
+                    <p id="incorrect">Incorrect Username/Password</p>
+                        <div class="input">
+                                <i id = "logo1" class="fas fa-user"></i>
+                            <input onblur="back1()" onclick="change1()" placeholder="USERNAME" class = "login" type="text" spellcheck="false" name="username" id="login-username" required>
+                        </div>
+                    <br>
+                        <div class="input">
+                                <i id = "logo2" class="fas fa-lock"></i>
+                            <input onblur="back2()" onclick="change2()" on placeholder="PASSWORD" class = "login" type="password" spellcheck="false" name="password" id="login-password" required>  
+                        </div>
+                    <a onclick="openHome()">CONTINUE WITHOUT LOGIN</a>
+                    <button oninput="login()" onclick="checker()" type="button" class = "btn" >LOGIN</button>
+                </form>
+            </div>
+        </div>
+    </div>
+<script src="login.js"></script>
+</body>
+</html>
